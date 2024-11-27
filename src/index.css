@@ -147,6 +147,10 @@ body{
         font-size: 25px;
     }
 
+    .list-1{
+        font-size: 29px;
+    }
+
     .container-about{
         flex-direction: column;
         text-align: center;

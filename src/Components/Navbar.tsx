@@ -4,7 +4,8 @@ import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 import { Box, Divider, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import { useState } from "react";
 import { HiOutlineBars3 } from "react-icons/hi2";
-import { PiChefHatDuotone } from "react-icons/pi"
+import { PiChefHatDuotone } from "react-icons/pi";
+import { FaBoxOpen } from "react-icons/fa";
 
 
 export default function Navbar(){
@@ -51,7 +52,7 @@ export default function Navbar(){
                         <ListItem>
                             <ListItemButton>
                                 <ListItemIcon>
-
+                                    <FaBoxOpen className="list-1" />
                                 </ListItemIcon>
                                  <ListItemText><p className="list">Serviços</p>
                                  </ListItemText>
@@ -61,7 +62,7 @@ export default function Navbar(){
                         <ListItem>
                             <ListItemButton>
                                 <ListItemIcon>
-                                    <PiChefHatDuotone className="list" />
+                                    <PiChefHatDuotone className="list-1" />
                                 </ListItemIcon>
                                  <ListItemText><p className="list">Chefs</p></ListItemText>
                             </ListItemButton>
