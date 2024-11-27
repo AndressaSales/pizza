@@ -1,3 +1,4 @@
+import About from "./Components/About"
 import Home from "./Components/Home"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Home />
+      <About />
     </>
   )
 }
