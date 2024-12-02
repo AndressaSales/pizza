@@ -127,6 +127,58 @@ body{
     background-color: lightgray;
 }
 
+.title-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.title-service h2{
+    margin: 10px;
+    color: #ff9800;
+    font-size: 30px;
+}
+
+.title-service span{
+    color: #000;
+}
+
+.title-service label{
+    display: inline-block;
+    max-width: 5px 0;
+    font-size: 19px;
+}
+
+.service-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.item-service{
+    padding: 50px;
+}
+
+.item-service img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.item-service h3{
+    font-size: 22px;
+}
+
+.item-service label {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
 @media (max-width: 800px){
 
     .navbar-link{
@@ -166,11 +218,35 @@ body{
 
     .body-about h3{
         text-align: center;
-         font-size: 21px;
+        font-size: 21px;
     }
 
     .body-about p{
         font-size: 15px;
         line-height: 30px;
     }
+
+    .service-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-service h2{
+        font-size: 21px;
+    }
+
+    .title-service label {
+        font-size: 16px;
+    }
+
+    .item-service h3{
+        font-size: 20px;
+    }
+
+    .item-service label{
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
 }
