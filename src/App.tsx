@@ -1,4 +1,5 @@
 import About from "./Components/About"
+import Chefs from "./Components/Chefs"
 import Home from "./Components/Home"
 import Services from "./Components/Services"
 
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <Chefs />
     </>
   )
 }
