@@ -1,6 +1,7 @@
 import About from "./Components/About"
 import Chefs from "./Components/Chefs"
 import Home from "./Components/Home"
+import Menu from "./Components/Menu"
 import Services from "./Components/Services"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Services />
       <Chefs />
+      <Menu />
     </>
   )
 }

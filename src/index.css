@@ -224,6 +224,99 @@ body{
     font-size: 15px;
 }
 
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu-container h2{
+    color: #ff9800;
+}
+
+.menu-traditional h3{
+    text-align: center;
+}
+
+.menu-traditional span{
+    color: #ff9800;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card-menu{
+    display: flex;
+    padding: 30px 30px 15px 30px;
+    position: relative;
+    margin: 20px;
+}
+
+.card-img img{
+    width: 230px;
+    transition: all .4s ease-in-out;
+}
+
+.card-img img:hover{
+    transform: scale(1.1);
+}
+
+.body-card{
+    padding: 20px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.text{
+    margin-top: 5px;
+}
+
+.cash-menu{
+    display: flex;
+}
+
+.dcash{
+    display: block;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.cash{
+    display: block;
+    font-weight: bold;
+}
+
+.body-card a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 7px 20px;
+    background-color: #dcdcdc;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.desconto{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    transform: rotate(30deg);
+    font-weight: 10px;
+    color: #f00;
+}
+
 @media (max-width: 800px){
 
     .navbar-link{
