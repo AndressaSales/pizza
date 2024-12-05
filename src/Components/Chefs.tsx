@@ -19,7 +19,7 @@ export default function Chefs(){
         },
         {
             id: 3,
-            name: "Maxson Silva",
+            name: "Chef Maxson Silva",
             url: chef3,
             text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sunt!"
         }
