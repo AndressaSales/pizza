@@ -317,6 +317,35 @@ body{
     color: #f00;
 }
 
+.footer{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.icon a{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    color: #000;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.icon a:hover{
+    opacity: .8;
+}
+
+.footer h3{
+    position: relative;
+    bottom: 23px;
+    color: #ff9800;
+}
+
 @media (max-width: 800px){
 
     .navbar-link{
