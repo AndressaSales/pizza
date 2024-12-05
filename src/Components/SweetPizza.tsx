@@ -9,7 +9,7 @@ export default function SweetPizza(){
     const sweets = [
         {
             id: 1,
-            title: "Pizza de Chocolate com Morango",
+            title: "Pizza de Morango ",
             url: pizzachocomorango,
             text: "Lorem ipsum dolor sit.",
             cash1: 34.90,
